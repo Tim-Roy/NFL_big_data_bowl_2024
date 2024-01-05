@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-01-03T05:36:18.501Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="xGeV6WSUNDOzHVWctPJs" version="22.1.16" type="device">
+  <diagram name="Page-1" id="P6IodFEvj-JxhlyyM5Kf">
+    <mxGraphModel dx="932" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-1" value="&lt;font face=&quot;Helvetica&quot;&gt;All plays&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#000000;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="90" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xax4BCgiu-0hCcNTI0Cz-4" target="xax4BCgiu-0hCcNTI0Cz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-4" value="1. Remove plays nullified by penalty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#000000;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="171" y="80" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xax4BCgiu-0hCcNTI0Cz-6" target="xax4BCgiu-0hCcNTI0Cz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-6" value="2. Flip plays to the right where offense is headed towards left end zone" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;fontColor=#000000;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="299" y="80" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-13" value="3. Identify start and end frame for training purposes" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;fontColor=#000000;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="427" y="80" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=hatch;fillColor=#FF6666;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="171" y="210" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xax4BCgiu-0hCcNTI0Cz-4" target="xax4BCgiu-0hCcNTI0Cz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xax4BCgiu-0hCcNTI0Cz-1" target="xax4BCgiu-0hCcNTI0Cz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xax4BCgiu-0hCcNTI0Cz-19" target="xax4BCgiu-0hCcNTI0Cz-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-19" value="4. Remove plays where the ball carrier has possession for less than 13 frames" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;fontColor=#000000;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="90" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=#82ACFF;strokeColor=#82ACFF;gradientColor=none;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="677" y="201" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-22" value="5. Augment data using final 10 frames of each play" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;fontColor=#000000;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="677" y="80" width="90" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=hatch;fillColor=#FF6666;strokeColor=#82ACFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="201" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xax4BCgiu-0hCcNTI0Cz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.048;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xax4BCgiu-0hCcNTI0Cz-13" target="xax4BCgiu-0hCcNTI0Cz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

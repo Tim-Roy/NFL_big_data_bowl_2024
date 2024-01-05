@@ -1,0 +1,10 @@
+__pycache__
+.ipynb_checkpoints
+.vscode
+dev
+features
+final_model
+model_logs
+notebooks
+predictions
+src/local.py
